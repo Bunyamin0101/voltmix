@@ -432,7 +432,7 @@ function updatePreview() {
 
     // Details
     const detailsEl = document.getElementById('preview-details');
-    detailsEl.textContent = `${state.caffeine.value}mg Koffein · ${state.size.value}g · inkl. 30g Löffel`;
+    detailsEl.textContent = `${state.caffeine.value}mg Koffein · ${state.size.value}g`;
 
     // Preis
     const priceEl = document.getElementById('preview-price');
@@ -551,9 +551,6 @@ function renderCanSVG() {
             <!-- Bottom rim -->
             <ellipse cx="${cx}" cy="${tubBottom}" rx="${tubW / 2}" ry="5" fill="${adjustBrightness(color, -70)}"/>
             
-            <!-- Label area (dark band) -->
-            <rect x="${tubX}" y="${labelY}" width="${tubW}" height="${labelH}" fill="rgba(0,0,0,0.35)" rx="0"/>
-            
             <!-- VOLTMIX Logo -->
             <text x="${cx}" y="${labelY + 26}" text-anchor="middle" fill="${textColor}" font-family="'Russo One', sans-serif" font-size="${sizeVal >= 1000 ? '17' : '15'}" letter-spacing="2" opacity="0.9">VOLTMIX</text>
             
@@ -572,8 +569,7 @@ function renderCanSVG() {
             <!-- Size info -->
             <text x="${cx}" y="${tubBottom - 22}" text-anchor="middle" fill="${textColor}" font-family="'Exo 2', sans-serif" font-size="8" opacity="0.5">${state.size.value}g · ~${portions} Portionen</text>
             
-            <!-- Scoop info -->
-            <text x="${cx}" y="${tubBottom - 8}" text-anchor="middle" fill="${textColor}" font-family="'Exo 2', sans-serif" font-size="6" letter-spacing="1" opacity="0.4">INKL. 30g MESSLÖFFEL</text>
+
             
             <!-- Top decorative stripe -->
             <rect x="${tubX}" y="${tubY + 14}" width="${tubW}" height="3" fill="${textColor}" opacity="0.15"/>
@@ -681,10 +677,7 @@ function renderSummary() {
                 <span class="label">Dosengröße</span>
                 <span>${state.size.value}g${state.size.price > 0 ? ' (+' + formatPrice(state.size.price) + ')' : ''}</span>
             </div>
-            <div class="summary-row">
-                <span class="label">Messlöffel</span>
-                <span>30g – inklusive</span>
-            </div>
+
         </div>
         <div class="summary-section">
             <h5><i class="bi bi-palette me-2 text-volt"></i>Design</h5>

@@ -124,7 +124,7 @@ require_once 'includes/header.php';
                     </div>
 
                     <h5 class="fw-bold mt-5 mb-3">Dosengröße</h5>
-                    <p class="text-muted small mb-3"><i class="bi bi-spoon me-1"></i>Jede Dose enthält einen 30g Messlöffel für die perfekte Portion.</p>
+
                     <div class="radio-grid" id="size-grid">
                         <div class="radio-card size-card" data-value="300" data-price="0">
                             <div class="size-ml">300<small style="font-size:0.4em">g</small></div>
@@ -237,7 +237,7 @@ require_once 'includes/header.php';
                         <!-- Rendered by JS -->
                     </div>
                     <div class="preview-name" id="preview-name">DEIN MIX</div>
-                    <div class="preview-details" id="preview-details">150mg Koffein · 500g · inkl. 30g Löffel</div>
+                    <div class="preview-details" id="preview-details">150mg Koffein · 500g</div>
 
                     <div class="preview-price" id="preview-price">3,95 €</div>
                     <div class="preview-price-detail" id="preview-price-detail">inkl. MwSt., zzgl. Versand</div>
@@ -263,7 +263,7 @@ require_once 'includes/header.php';
             <div class="modal-body text-center p-5">
                 <div style="font-size:4rem" class="mb-3">⚡</div>
                 <h3 class="fw-bold mb-3">Bestellung eingegangen!</h3>
-                <p class="text-muted">Dein individuelles Energy Pulver wird für dich gemischt und in deine Dose abgefüllt – inkl. 30g Messlöffel. Wir benachrichtigen dich, sobald es versandt wird.</p>
+                <p class="text-muted">Dein individuelles Energy Pulver wird für dich gemischt und in deine Dose abgefüllt. Wir benachrichtigen dich, sobald es versandt wird.</p>
                 <p class="text-muted small">(Dies ist ein Prototyp – es wird keine echte Bestellung ausgelöst.)</p>
                 <button class="btn btn-volt mt-3" data-bs-dismiss="modal">Alles klar!</button>
             </div>

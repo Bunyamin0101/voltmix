@@ -101,7 +101,7 @@ async function loadSavedConfigs() {
                         </div>
                         <div class="mt-3">
                             <small class="text-muted">
-                                ${config.caffeine_level}mg Koffein · ${config.size_ml}g · inkl. 30g Löffel · ${SWEETENER_MAP[config.sweetener] || config.sweetener}
+                                ${config.caffeine_level}mg Koffein · ${config.size_ml}g · ${SWEETENER_MAP[config.sweetener] || config.sweetener}
                             </small>
                         </div>
                         <div class="mt-2">

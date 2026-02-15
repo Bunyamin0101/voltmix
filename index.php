@@ -17,7 +17,7 @@ require_once 'includes/header.php';
                 </h1>
                 <p class="hero-subtitle mb-4">
                     Kreiere dein individuelles Energy Pulver aus über 20 Geschmacksrichtungen, 
-                    funktionalen Extras und persönlichem Dosen-Design. Inkl. 30g Messlöffel.
+                    funktionalen Extras und persönlichem Dosen-Design.
                 </p>
                 <div class="d-flex gap-3 flex-wrap">
                     <a href="configurator.php" class="btn btn-volt btn-volt-lg">
@@ -65,7 +65,7 @@ require_once 'includes/header.php';
                     <text x="110" y="252" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="'Exo 2', sans-serif" font-size="9" letter-spacing="2">CUSTOM ENERGY</text>
                     <!-- Decorative line -->
                     <line x1="55" y1="262" x2="165" y2="262" stroke="#39FF14" stroke-width="0.5" opacity="0.4"/>
-                    <text x="110" y="278" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="'Exo 2', sans-serif" font-size="7">500g · inkl. 30g Messlöffel</text>
+                    <text x="110" y="278" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="'Exo 2', sans-serif" font-size="7">500g</text>
                 </svg>
             </div>
             </div>
