@@ -25,12 +25,12 @@ Projektarbeit Web-Technologien WiSe 2025/2026, THM Campus Friedberg.
    ```
 
 3. **Datenbank einrichten:**
-   - phpMyAdmin öffnen: [http://localhost:8081](http://localhost:8081)
+   - phpMyAdmin öffnen: [http://localhost:8082](http://localhost:8082)
    - Einloggen mit `root` / `rootpasswort`
    - Datenbank `meine_db` auswählen
-   - Unter "Importieren" die Datei `src/database.sql` hochladen und ausführen
+   - Unter "Importieren" die Datei `database.sql` hochladen und ausführen
 
-4. **Webapp öffnen:** [http://localhost](http://localhost)
+4. **Webapp öffnen:** [http://localhost:8080](http://localhost:8080)
 
 ### Zugangsdaten (Docker-Vorlage)
 
@@ -60,8 +60,8 @@ Projektarbeit Web-Technologien WiSe 2025/2026, THM Campus Friedberg.
 ### Pflichtanforderungen (1-7)
 1. **Landing Page** mit Beschreibung, visueller Darstellung und Call-to-Action
 2. **Registrierung & Login** mit E-Mail, Name, Adresse und Passwort
-3. **5-Schritte-Konfigurator:** Basis → Geschmack → Extras → Süßung & Größe → Design
-4. **22 Geschmacksrichtungen** in 6 Kategorien (> 20 Wahlmöglichkeiten)
+3. **6-Schritte-Konfigurator:** Basis → Geschmack → Extras → Süßung & Größe → Design → Zusammenfassung
+4. **23 Geschmacksrichtungen** in 6 Kategorien (> 20 Wahlmöglichkeiten)
 5. **Visuelle Darstellung** durch dynamisches SVG der Dose (Live-Preview mit Farbe, Name, Details)
 6. **Zusammenfassung** mit Preisübersicht und "Jetzt bestellen"-Button
 7. **Konfiguration speichern** in der Datenbank (eingeloggte User)
@@ -74,7 +74,6 @@ Projektarbeit Web-Technologien WiSe 2025/2026, THM Campus Friedberg.
 ## Projektstruktur
 
 ```
-src/
 ├── index.php              Landing Page
 ├── register.php           Registrierung
 ├── login.php              Login
@@ -97,5 +96,6 @@ src/
 ├── js/
 │   ├── configurator.js    Konfigurator-Logik
 │   └── auth.js            Login/Register-Logik
-└── database.sql           SQL-Dump
+├── database.sql           SQL-Dump
+└── docker-compose.yml     Docker-Konfiguration
 ```
