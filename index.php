@@ -30,18 +30,18 @@ require_once 'includes/header.php';
             </div>
             <div class="col-lg-5 text-center mt-5 mt-lg-0">
                 <!-- Hero SVG Pulverdose -->
-                <svg viewBox="0 0 220 340" style="max-width: 240px; filter: drop-shadow(0 0 30px rgba(57,255,20,0.2));">
+                <svg class="hero-can-svg" viewBox="0 0 220 340" width="240">
                     <defs>
                         <linearGradient id="heroTubGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:#1a1a2e"/>
-                            <stop offset="30%" style="stop-color:#16213e"/>
-                            <stop offset="70%" style="stop-color:#0f3460"/>
-                            <stop offset="100%" style="stop-color:#1a1a2e"/>
+                            <stop offset="0%" stop-color="#1a1a2e"/>
+                            <stop offset="30%" stop-color="#16213e"/>
+                            <stop offset="70%" stop-color="#0f3460"/>
+                            <stop offset="100%" stop-color="#1a1a2e"/>
                         </linearGradient>
                         <linearGradient id="heroLidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                            <stop offset="0%" style="stop-color:#222"/>
-                            <stop offset="50%" style="stop-color:#444"/>
-                            <stop offset="100%" style="stop-color:#222"/>
+                            <stop offset="0%" stop-color="#222"/>
+                            <stop offset="50%" stop-color="#444"/>
+                            <stop offset="100%" stop-color="#222"/>
                         </linearGradient>
                     </defs>
                     <!-- Shadow -->
@@ -60,17 +60,14 @@ require_once 'includes/header.php';
                     <!-- Brand text -->
                     <text x="110" y="155" text-anchor="middle" fill="#39FF14" font-family="'Russo One', sans-serif" font-size="24" letter-spacing="3">VOLTMIX</text>
                     <!-- Lightning bolt -->
-                    <path d="M105 170 L115 170 L110 192 L125 187 L105 222 L110 202 L95 207 Z" fill="#39FF14" opacity="0.8"/>
+                    <path class="bolt-flash" d="M105 170 L115 170 L110 192 L125 187 L105 222 L110 202 L95 207 Z" fill="#39FF14"/>
                     <!-- Subtitle -->
                     <text x="110" y="252" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-family="'Exo 2', sans-serif" font-size="9" letter-spacing="2">CUSTOM ENERGY</text>
                     <!-- Decorative line -->
                     <line x1="55" y1="262" x2="165" y2="262" stroke="#39FF14" stroke-width="0.5" opacity="0.4"/>
                     <text x="110" y="278" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-family="'Exo 2', sans-serif" font-size="7">500g · inkl. 30g Messlöffel</text>
-                    <!-- Scoop icon -->
-                    <text x="110" y="298" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-family="'Exo 2', sans-serif" font-size="18">🥄</text>
-                    <!-- Glow border -->
-                    <rect x="30" y="60" width="160" height="250" rx="14" fill="none" stroke="#39FF14" stroke-width="0.5" opacity="0.3"/>
                 </svg>
+            </div>
             </div>
         </div>
     </div>

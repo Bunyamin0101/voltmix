@@ -247,7 +247,6 @@ require_once 'includes/header.php';
                         <span class="ingredient-tag">Wähle Geschmack...</span>
                     </div>
 
-                    <button class="btn btn-volt w-100 mt-3" onclick="goToStep(6)">Weiter</button>
                 </div>
             </div>
         </div>
