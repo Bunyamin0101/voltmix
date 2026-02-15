@@ -532,7 +532,7 @@ function renderCanSVG() {
             </defs>
             
             <!-- Shadow -->
-            <ellipse cx="${cx}" cy="${tubBottom + 3}" rx="${tubW / 2 + 5}" ry="8" fill="rgba(0,0,0,0.35)"/>
+            <ellipse cx="${cx}" cy="${tubBottom - 6}" rx="${tubW / 2 - 8}" ry="5" fill="rgba(0,0,0,0.25)"/>
             
             <!-- Tub body -->
             <rect x="${tubX}" y="${tubY}" width="${tubW}" height="${tubH}" rx="12" fill="url(#tubBodyGrad)"/>
@@ -547,9 +547,6 @@ function renderCanSVG() {
             <!-- Lid grip -->
             <line x1="${cx - 40}" y1="${lidY}" x2="${cx + 40}" y2="${lidY}" stroke="#555" stroke-width="0.5"/>
             <line x1="${cx - 35}" y1="${lidY + 4}" x2="${cx + 35}" y2="${lidY + 4}" stroke="#555" stroke-width="0.3"/>
-            
-            <!-- Bottom rim -->
-            <ellipse cx="${cx}" cy="${tubBottom}" rx="${tubW / 2}" ry="5" fill="${adjustBrightness(color, -70)}"/>
             
             <!-- VOLTMIX Logo -->
             <text x="${cx}" y="${labelY + 26}" text-anchor="middle" fill="${textColor}" font-family="'Russo One', sans-serif" font-size="${sizeVal >= 1000 ? '17' : '15'}" letter-spacing="2" opacity="0.9">VOLTMIX</text>

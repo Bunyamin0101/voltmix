@@ -44,8 +44,6 @@ require_once 'includes/header.php';
                             <stop offset="100%" stop-color="#222"/>
                         </linearGradient>
                     </defs>
-                    <!-- Shadow -->
-                    <ellipse cx="110" cy="320" rx="65" ry="10" fill="rgba(0,0,0,0.3)"/>
                     <!-- Tub body -->
                     <rect x="30" y="60" width="160" height="250" rx="14" fill="url(#heroTubGrad)"/>
                     <!-- Lid -->
@@ -55,8 +53,6 @@ require_once 'includes/header.php';
                     <!-- Lid grip lines -->
                     <line x1="60" y1="38" x2="160" y2="38" stroke="#555" stroke-width="0.5"/>
                     <line x1="65" y1="42" x2="155" y2="42" stroke="#555" stroke-width="0.3"/>
-                    <!-- Bottom rim -->
-                    <ellipse cx="110" cy="310" rx="80" ry="6" fill="#0a0e17"/>
                     <!-- Brand text -->
                     <text x="110" y="155" text-anchor="middle" fill="#39FF14" font-family="'Russo One', sans-serif" font-size="24" letter-spacing="3">VOLTMIX</text>
                     <!-- Lightning bolt -->
@@ -120,7 +116,6 @@ require_once 'includes/header.php';
             <!-- Preset 1 -->
             <div class="col-md-4">
                 <div class="vm-card preset-card p-4 h-100" onclick="window.location='configurator.php?preset=gamer_fuel'">
-                    <span class="preset-badge">Beliebt</span>
                     <div class="text-center mb-3 mt-2">
                         <span style="font-size:3.2rem;">🎮</span>
                     </div>
