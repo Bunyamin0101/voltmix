@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `configurations` (
     `user_id` INT NOT NULL,
     `caffeine_level` VARCHAR(10) NOT NULL DEFAULT '150',
     `sweetener` VARCHAR(50) NOT NULL DEFAULT 'stevia',
-    `size_ml` VARCHAR(10) NOT NULL DEFAULT '330',
+    `size_ml` VARCHAR(10) NOT NULL DEFAULT '300',
     `can_name` VARCHAR(50) DEFAULT '',
     `can_color` VARCHAR(10) DEFAULT '#39FF14',
     `total_price` DECIMAL(8,2) NOT NULL DEFAULT 0.00,
