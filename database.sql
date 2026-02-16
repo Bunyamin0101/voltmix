@@ -95,15 +95,17 @@ INSERT INTO `users` (`vorname`, `nachname`, `email`, `passwort_hash`, `strasse`,
 
 -- Beispiel-Konfiguration für Testbenutzer
 INSERT INTO `configurations` (`user_id`, `caffeine_level`, `sweetener`, `size_ml`, `can_name`, `can_color`, `total_price`) VALUES
-(1, '200', 'stevia', '330', 'MAX POWER', '#39FF14', 6.45);
+(1, '200', 'stevia', '1000', 'THM', '#39FF14', 13.75);
 
 INSERT INTO `configuration_flavors` (`configuration_id`, `flavor_id`) VALUES
-(1, 'mango'),
-(1, 'limette');
+(1, 'pfirsich'),
+(1, 'yuzu'),
+(1, 'litschi');
 
 INSERT INTO `configuration_extras` (`configuration_id`, `extra_id`) VALUES
-(1, 'taurin'),
 (1, 'ltheanin'),
+(1, 'elektrolyte'),
+(1, 'taurin'),
 (1, 'bvitamine');
 
 COMMIT;
