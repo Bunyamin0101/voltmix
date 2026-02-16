@@ -264,7 +264,6 @@ p, .small, small {
     padding: 0.8rem 1.2rem;
     font-weight: 600;
     font-size: 0.85rem;
-    text-transform: uppercase;
     letter-spacing: 1px;
     white-space: nowrap;
     position: relative;
@@ -726,7 +725,6 @@ p, .small, small {
 .size-card .size-label {
     font-size: 0.85rem;
     color: var(--volt-muted);
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 

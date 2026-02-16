@@ -6,12 +6,12 @@ require_once 'includes/header.php';
 <div class="container py-4">
     <!-- Step Navigation -->
     <div class="config-steps" id="config-steps">
-        <button class="config-step-btn active" data-step="1">Basis</button>
-        <button class="config-step-btn" data-step="2">Geschmack</button>
-        <button class="config-step-btn" data-step="3">Extras</button>
-        <button class="config-step-btn" data-step="4">Süßung & Größe</button>
-        <button class="config-step-btn" data-step="5">Design</button>
-        <button class="config-step-btn" data-step="6">Zusammenfassung</button>
+        <button class="config-step-btn active" data-step="1">BASIS</button>
+        <button class="config-step-btn" data-step="2">GESCHMACK</button>
+        <button class="config-step-btn" data-step="3">EXTRAS</button>
+        <button class="config-step-btn" data-step="4">SÜßUNG & GRÖßE</button>
+        <button class="config-step-btn" data-step="5">DESIGN</button>
+        <button class="config-step-btn" data-step="6">ZUSAMMENFASSUNG</button>
     </div>
 
     <div class="row mt-3">
@@ -26,22 +26,22 @@ require_once 'includes/header.php';
 
                     <div class="radio-grid" id="caffeine-grid">
                         <div class="radio-card" data-value="50" data-price="0">
-                            <div class="radio-value">50<small style="font-size:0.5em">mg</small></div>
+                            <div class="radio-value">50<small style="font-size:0.5em">mg/Portion</small></div>
                             <div class="radio-label">Leicht</div>
                             <div class="radio-sublabel">Sanfter Boost</div>
                         </div>
                         <div class="radio-card" data-value="100" data-price="0">
-                            <div class="radio-value">100<small style="font-size:0.5em">mg</small></div>
+                            <div class="radio-value">100<small style="font-size:0.5em">mg/Portion</small></div>
                             <div class="radio-label">Medium</div>
                             <div class="radio-sublabel">~ 1 Tasse Kaffee</div>
                         </div>
                         <div class="radio-card selected" data-value="150" data-price="0">
-                            <div class="radio-value">150<small style="font-size:0.5em">mg</small></div>
+                            <div class="radio-value">150<small style="font-size:0.5em">mg/Portion</small></div>
                             <div class="radio-label">Stark</div>
                             <div class="radio-sublabel">Voller Fokus</div>
                         </div>
                         <div class="radio-card" data-value="200" data-price="0.50">
-                            <div class="radio-value">200<small style="font-size:0.5em">mg</small></div>
+                            <div class="radio-value">200<small style="font-size:0.5em">mg/Portion</small></div>
                             <div class="radio-label">Maximum</div>
                             <div class="radio-sublabel">+0,50 € · Turbo-Modus</div>
                         </div>
@@ -128,17 +128,17 @@ require_once 'includes/header.php';
                     <div class="radio-grid" id="size-grid">
                         <div class="radio-card size-card" data-value="300" data-price="0">
                             <div class="size-ml">300<small style="font-size:0.4em">g</small></div>
-                            <div class="size-label">Standard</div>
+                            <div class="size-label">STANDARD</div>
                             <div class="radio-sublabel">~10 Portionen</div>
                         </div>
                         <div class="radio-card size-card selected" data-value="500" data-price="3.00">
                             <div class="size-ml">500<small style="font-size:0.4em">g</small></div>
-                            <div class="size-label">Medium</div>
+                            <div class="size-label">MEDIUM</div>
                             <div class="radio-sublabel">+3,00 € · ~16 Portionen</div>
                         </div>
                         <div class="radio-card size-card" data-value="1000" data-price="7.50">
                             <div class="size-ml">1000<small style="font-size:0.4em">g</small></div>
-                            <div class="size-label">Groß</div>
+                            <div class="size-label">GROß</div>
                             <div class="radio-sublabel">+7,50 € · ~33 Portionen</div>
                         </div>
                     </div>
